@@ -22,7 +22,7 @@ class UsersController extends Controller
             'password' => bcrypt($request->password)
         ]);
 
-        return 'Cliente Criado com Sucesso!';
+        return 'Usuário Criado com Sucesso!';
     }
 
     public function show($id)
@@ -47,7 +47,7 @@ class UsersController extends Controller
             'password' => bcrypt($request->password) 
         ]);
 
-        return "Produto Atualizado com Sucesso";
+        return "Usuário Atualizado com Sucesso";
     }
 
     public function delete($id)
